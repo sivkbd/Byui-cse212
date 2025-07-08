@@ -1,6 +1,8 @@
 ﻿using System.Diagnostics;
 
+#pragma warning disable CA1050 // Declare types in namespaces
 public static class Search {
+#pragma warning restore CA1050 // Declare types in namespaces
     public static void Run() {
         Console.WriteLine("{0,15}{1,15}{2,15}{3,15}{4,15}", "n", "sort1-count", "sort2-count", "sort1-time",
             "sort2-time");

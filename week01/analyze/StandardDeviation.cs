@@ -4,7 +4,9 @@
 /// is defined as the square root of the variance.  The variance is 
 /// defined as the average of the squared differences from the mean.
 /// </summary>
+#pragma warning disable CA1050 // Declare types in namespaces
 public static class StandardDeviation {
+#pragma warning restore CA1050 // Declare types in namespaces
     public static void Run() {
         var numbers = new[] { 600, 470, 170, 430, 300 };
         Console.WriteLine(StandardDeviation1(numbers)); // Should be 147.322 
